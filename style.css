@@ -166,3 +166,82 @@ html {
   border-radius: 10px;
   background-color: #20f573;
 }
+.title{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#first{
+  width: 21rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  color: #EA1E00;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+}
+#second{
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  line-height: 46.8px;
+}
+
+.timeline{
+  display: flex;
+  flex-direction: column;
+  height: 10rem;
+  width: 40rem;  
+  margin: 50px 30px 30px 50px;
+}
+.timeline:nth-child(odd){
+  float: left;
+  clear: right;
+  transform: translate(150px);
+}
+
+.timeline:nth-child(even){
+  float: right;
+  clear: left;
+  text-align: right;
+  transform: translate(-150px);
+}
+.heading{
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  line-height: 31px;
+}
+.timeline .heading#odd{
+  text-align: left;
+}
+.timeline .heading#even{
+  text-align: right;
+}
+
+.Desc{
+font-family: Manrope;
+font-size: 16px;
+font-weight: 500;
+line-height: 21px;
+color: #848484;
+}
+.timeline .Desc#odd{
+  text-align: left;
+}
+.timeline .Desc#even{
+  text-align: right;
+}
+.timeline img{
+  width: 32px;
+  height: 32px;
+  margin-bottom: 20px;
+}
+.timeline img#even{
+margin-left: auto;
+}
+
