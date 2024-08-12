@@ -166,13 +166,13 @@ html {
   border-radius: 10px;
   background-color: #20f573;
 }
-.title{
+.section2 .title{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 }
-#first{
+.section2 #first{
   width: 21rem;
   height: 4.5rem;
   display: flex;
@@ -184,7 +184,7 @@ align-items: center;
   font-weight: 800;
   line-height: 21px;
 }
-#second{
+.section2 #second{
   font-size: 36px;
   font-weight: 700;
   font-family: Inter, sans-serif;
@@ -298,3 +298,85 @@ margin-left: auto;
   left: 50%;
   transform: translateX(-50%);
 }
+.section3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rem;
+  }
+.section3 .title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .section3 #first{
+    width: 21rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    color: #EA1E00;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 21px;
+  }
+  .section3 #second{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    line-height: 46.8px;
+  }
+  .testimonial {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
+    gap: 20px; 
+    padding: 20px; 
+    align-items: center;
+
+  }
+  .sections {
+    padding: 20px;
+    text-align: left;
+  }
+  .sections .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  .sections .title .name #name {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    line-height: 23px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  
+  #job {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  
+  .comments {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Inter, sans-serif;
+    line-height: 21px;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  #stars{
+    margin: 3rem 0rem 0rem 1rem;
+  }
