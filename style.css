@@ -200,14 +200,14 @@ html {
 .timeline:nth-child(odd) {
   float: left;
   clear: right;
-  transform: translate(200px);
+  transform: translate(150px);
 }
 
 .timeline:nth-child(even) {
   float: right;
   clear: left;
   text-align: right;
-  transform: translate(-200px);
+  transform: translate(-150px);
 }
 .heading {
   font-size: 24px;
