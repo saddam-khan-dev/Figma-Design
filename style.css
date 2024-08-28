@@ -545,30 +545,27 @@ form button img{
   justify-content: center;
   align-items: center;
 }
-.map-overly{
+.map-overlay{
   position: relative;
-  width:410px;
-  height:533px;
 }
-.overly{
+.overlay{
   position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
+  top: 200px;
+  left: 40px;
+
 }
-.overly, .title-1{
+.overlay, .title-1{
   font-family: Inter, sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 21px;
   color: #615e5e;
+  margin-left: 5rem;
 }
-.overly, .title-2{
+.overlay, .title-2{
   font-size: 16px;
   font-weight: 700;
   font-family: Inter, sans-serif;
   line-height: 23px;
-}
-.overly, .title-1, .title-2 img{
-display: flex;
+  margin-left: 5rem;
 }
