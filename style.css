@@ -555,19 +555,20 @@ form button img{
 .overlay{
   position: absolute;
   bottom: 0px;
-  left: -50px;/*  using this it will move to left, I don't know from where it take the space from the left  */
-  width: 100%;
+  left: 15px; /*using this it will move to left, I don't know from where it take the space from the left*/ 
+  width: 80%;
+align-items: center;
 
 }
 
 .overlay .check{
-  background-color: gray;
-  color: white;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 5px;
+  color: black;
   display: flex;
   margin-bottom: 1rem;
   width: 100% !important;
-  /* display: flex;
-  flex-direction: column; */
 }
 
 .check-2{
@@ -599,10 +600,6 @@ form button img{
   height: 500px;
   gap: 50px;
   background-color: #000000;
-}
-
-.footer1 {
-  
 }
 
 .footer1 .col-1{
@@ -708,9 +705,7 @@ form button img{
 .footer2 .right{
   display: flex;
   align-items: center;
-  /* justify-content: flex-end; */
   margin-right: 2rem;
-  /* font-size: large; */
   gap: 2rem;
 }
 .footer2 .left {
@@ -733,7 +728,6 @@ form button img{
   font-weight: 700;
   font-family: Inter, sans-serif;
   line-height: 23px;
-  /* margin-left: 5rem; */
   text-decoration: none;
   color: #000000;
 }
